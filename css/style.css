@@ -1,0 +1,127 @@
+body {
+    font-family: 'Old Standard TT', serif;
+    font-size: 16px;
+    background-color: #f2f4f6;
+    background-image: url("../image/hero-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+header {
+    padding-top: 20px;
+}
+
+a {
+    font-size: 1em;
+}
+.header-phone {
+    text-decoration: none;
+}
+
+.header-email {
+    text-decoration: none;
+}
+.intro {
+    border: black 2px solid;
+    height: 900px;
+    margin: auto;
+}
+.intro-head {
+    margin: 200px auto;
+    font-family: 'Old Standard TT', serif;
+    font-size: 52px;
+    text-align: center;
+
+}
+.about-me {
+    margin-top: 430px;
+}
+.about-me-header {
+    transform: translateY(60%);
+}
+
+.red {
+    color: red;
+}
+.black {
+    background-color: black;
+    padding: 5px;
+}
+
+footer {
+    background-color: #161a1e;
+}
+
+.footer-email {
+    color: #f2f4f6;
+}
+
+.footer-phone {
+    color: #f2f4f6;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:768px)
+    {
+        a {
+        font-size: 1.2em; 
+        }
+        header {
+            padding-top: 10px;
+        }
+        .about-me-header {
+            text-align: center;
+            transform: translateY(-20%);
+        }
+
+    }
+
+@media screen and (max-width:576px)
+    {
+        a {
+        font-size: 1em; 
+        text-align: center;
+        }
+    }
+@media screen and (min-width:992px)
+    {
+        a {
+            font-size: 1.4em; 
+        }
+        .about-me-header {
+            font-size: 2.5em;
+            
+        }
+        
+    }
+@media screen and (max-width:992px) and (min-width:768px)
+    {
+        .about-me-header {
+            transform: translateY(30%);
+        }
+    }
